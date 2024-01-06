@@ -19,6 +19,18 @@ git remote add origin git@github.com:coding-to-music/ansible-role-influxdb.git
 git push -u origin main
 ```
 
+## How to run
+
+create an inventory file similar to `inventory.sample`
+
+```java
+# if username on the control node is the SAME on the managed nodes
+ansible myhosts -m ping -i inventory
+
+# if username on the control node is different from the managed nodes
+ansible myhosts -m ping -i inventory -u root --ask-pass
+
+```
 
 
 [![tests](https://github.com/boutetnico/ansible-role-influxdb/workflows/Test%20ansible%20role/badge.svg)](https://github.com/boutetnico/ansible-role-influxdb/actions?query=workflow%3A%22Test+ansible+role%22)
