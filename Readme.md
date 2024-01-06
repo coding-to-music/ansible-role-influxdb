@@ -1,3 +1,26 @@
+# ansible-role-influxdb
+
+# 🚀 Install and configure InfluxDB 2.0 using Ansible. 🚀
+
+https://github.com/coding-to-music/ansible-role-influxdb
+
+From / By https://github.com/boutetnico/ansible-role-influxdb
+
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/ansible-role-influxdb.git
+git push -u origin main
+```
+
+
+
 [![tests](https://github.com/boutetnico/ansible-role-influxdb/workflows/Test%20ansible%20role/badge.svg)](https://github.com/boutetnico/ansible-role-influxdb/actions?query=workflow%3A%22Test+ansible+role%22)
 [![Ansible Galaxy](https://img.shields.io/badge/galaxy-boutetnico.influxdb-blue.svg)](https://galaxy.ansible.com/boutetnico/influxdb)
 
